@@ -34,7 +34,7 @@ export default function Card({ item }) {
             />
           </button>
           <Link
-            to={`/ProductDetails/${item.id}`}
+            to={`/ProductDatels/${item.id}`}
             aria-label={`View details of ${item.title}`}
           >
             <Eye className="bg-blue-500 text-white p-1 rounded-full shadow-md hover:bg-blue-600 transition-colors duration-200" />
