@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Navbar from './Components/Navbar/Navbar';
+import Navbar from './Components/navbar';
 import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
