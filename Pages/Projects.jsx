@@ -1,7 +1,7 @@
 import React from 'react';
-import fressh from "../../assets/Screenshot 2025-08-07 181331.png";
-import yummy from "../../assets/Screenshot 2025-08-07 181952.png";
-import daniels from "../../assets/Screenshot 2025-08-07 185701.png";
+import fressh from "../assets/Screenshot 2025-08-07 181331.png";
+import yummy from "../assets/Screenshot 2025-08-07 181952.png";
+import daniels from "../assets/Screenshot 2025-08-07 185701.png";
 
 // أيقونات
 import {
@@ -30,7 +30,7 @@ const techIcons = {
   GitHub: <FaGithub className="inline-block mr-1" />,
 };
 
-export default function Portfolio() {
+export default function Projects() {
   return (
     <section
       id="portfolio"
